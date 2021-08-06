@@ -6,3 +6,7 @@ Django tutorial from https://docs.djangoproject.com/en/3.2/intro/tutorial01/
 1.  Create Django project
 2.  Create Django application within project
 3.  Create a simple view
+4.  Configure project
+    -   setup a database connection
+    -   set a timezone
+5.  Migrate database
