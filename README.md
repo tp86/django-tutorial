@@ -11,3 +11,4 @@ Django tutorial from https://docs.djangoproject.com/en/3.2/intro/tutorial01/
     -   set a timezone
 5.  Migrate database
 6.  Create models
+7.  Add application to project
