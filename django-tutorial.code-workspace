@@ -5,6 +5,13 @@
 		}
 	],
 	"settings": {
-		"python.pythonPath": ".venv\\Scripts\\python.exe"
+		"python.pythonPath": ".venv\\Scripts\\python.exe",
+		"python.formatting.autopep8Args": [
+			"--aggressive",
+			"--aggressive"
+		],
+		"python.analysis.extraPaths": [
+			"mysite"
+		]
 	}
 }
