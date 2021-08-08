@@ -16,3 +16,4 @@ Django tutorial from https://docs.djangoproject.com/en/3.2/intro/tutorial01/
 9.  Create admin user
 10. Add models to admin site
 11. Add views
+12. Implement views + render using templates
