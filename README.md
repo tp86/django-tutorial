@@ -20,3 +20,4 @@ Django tutorial from https://docs.djangoproject.com/en/3.2/intro/tutorial01/
 13. Use template system
 14. Remove hardcoded urls in templates
 15. Namespace url names
+16. Write a form
