@@ -1,0 +1,24 @@
+{
+    "name": "Python3",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "ms-python.python",
+        "magicstack.magicpython",
+        "alexcvzz.vscode-sqlite",
+        "batisteo.vscode-django"
+    ],
+    "settings": {
+        "python.analysis.extraPaths": [
+            "mysite"
+        ],
+        "python.formatting.autopep8Args": [
+            "--aggressive",
+            "--aggressive"
+        ],
+        "python.pythonPath": ".venv/bin/python"
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt"
+}
