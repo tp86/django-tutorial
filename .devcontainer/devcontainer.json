@@ -6,8 +6,7 @@
     "extensions": [
         "ms-python.python",
         "magicstack.magicpython",
-        "alexcvzz.vscode-sqlite",
-        "batisteo.vscode-django"
+        "alexcvzz.vscode-sqlite"
     ],
     "settings": {
         "python.analysis.extraPaths": [
@@ -17,7 +16,8 @@
             "--aggressive",
             "--aggressive"
         ],
-        "python.pythonPath": ".venv/bin/python"
+        "python.pythonPath": ".venv/bin/python",
+        "html.format.templating": true
     },
     "remoteUser": "vscode",
     "postCreateCommand": "python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt"
