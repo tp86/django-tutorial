@@ -21,3 +21,4 @@ Django tutorial from https://docs.djangoproject.com/en/3.2/intro/tutorial01/
 14. Remove hardcoded urls in templates
 15. Namespace url names
 16. Write a form
+17. Use generic views
