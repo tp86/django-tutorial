@@ -4,7 +4,17 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"python.analysis.extraPaths": [
+			"mysite"
+		],
+		"python.formatting.autopep8Args": [
+			"--aggressive",
+			"--aggressive"
+		],
+		"python.pythonPath": ".venv\\Scripts\\python.exe",
+		"html.format.templating": true
+	},
 	"tasks": {
 		"version": "2.0.0",
 		"tasks": [
